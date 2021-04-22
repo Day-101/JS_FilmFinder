@@ -1,0 +1,63 @@
+.rounded-pill-left{
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+}
+
+.btn-primary{
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+}
+
+.container{
+  max-width: 800px;
+}
+
+img{
+  width: 120px;
+  margin-right: 1.5em;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+span{
+  font-size: .8em;
+  font-weight: bold;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+.card-movie{
+  display: flex;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid #ced4da;
+  border-radius: 1em;
+}
+
+.movie-infos{
+  flex-direction: column;
+  display: flex;
+}
+.movie-infos span{
+  flex-grow: 1;
+}
+
+.card-movie-detail{
+  display: flex;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+}
+
+.card-movie-detail h2{
+  font-size: 3em;
+}
+
+.card-movie-detail img{
+  width: 200px;
+}
