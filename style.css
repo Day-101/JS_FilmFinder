@@ -37,6 +37,9 @@ p{
   border: 1px solid #ced4da;
   border-radius: 1em;
 }
+.btn-outline-primary{
+  width: fit-content;
+}
 
 .movie-infos{
   flex-direction: column;
@@ -87,5 +90,5 @@ p{
 
 .popup__container {
   margin: auto;
-  max-width: 700px;
+  max-width: 1000px;
 }
