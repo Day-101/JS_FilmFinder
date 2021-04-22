@@ -4,13 +4,13 @@ let popup = document.getElementById("popup");
 let closeBtn = document.getElementById("close_btn");
 
 const fetchOMDbSearch = (title) => {
-	return fetch(`http://www.omdbapi.com/?apikey=${APIKEY}&s=${title}&type=movie`)
+	return fetch(`https://www.omdbapi.com/?apikey=${APIKEY}&s=${title}&type=movie`)
 		.then(data => data.json())
 		.catch(error => console.error(error));
 }
 
 const fetchOMDbMovie = (id) => {
-	return fetch(`http://www.omdbapi.com/?apikey=${APIKEY}&i=${id}`)
+	return fetch(`https://www.omdbapi.com/?apikey=${APIKEY}&i=${id}`)
 		.then(data => data.json())
 		.catch(error => console.error(error));
 }
